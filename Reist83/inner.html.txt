@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Магазин готовых шаблонов</title>
+</head>
+<body>
+<header class="main heder">
+<div class="container">
+<nav class="navigation"> 
+<ul>
+<li>
+<a href="#">Студия</a>
+</li>
+<li>
+<a href="#">Клиенты</a>
+</li>
+<li> 
+<a href="#">Магазин</a>
+</li>
+<li>
+<a href="#">Контакты</a>
+<a href="#">Корзина</a>
+<div class="index-logo">
+<img src="#"witdh="#" height="#" alt="Нердс лого"> 
+</nav>
+</div>
+</div>
+</header>
+<main class="container">
+<div class="index-content-left">
+<div class="increase">
+<b class="cost">Стоимость</b>
+<input type="range" min="0" max="15000" step="2">от 0 
+до 15000 </input>
+</div>
+<div class="grid">
+<b class="grid-1"> Сетка </b>
+<ul>
+<li><input type="radio"checked>Адаптивная</input></li>
+<li><input type="radio" >Фиксированная</input></li>
+<li><input type="radio"> Резиновая</input></li>
+</ul>
+</div>
+<div class="feature">
+<b class="feature-1">Особенности</b>  
+<ul>
+<li><input type="checkbox"checkend >Слайдер</input></li>
+<li><input type="checkbox">Блок преимуществ</input></li>
+<li><input type="checkbox" checkend>Новости</input></li>
+<li><input type="checkbox">Галерея</input></li>
+<li><input type="checkbox"> Корзина</input></li>
+</ul>
+</div>
+<div class="show">
+<a href="#">Показать</a>
+</div>
+</div>
+<div class="index-content-right">
+<div class="sorting">
+<b class="sorting-01">Cортировать:</b>
+<a href="#">По цене</a>
+<a href="#">По типу </a>
+<a href="#">По названию</a>
+</div>
+<div class="depiction">
+<img src="#" witdh="#" height="#" alt="Седона">
+<img src="#" witdh="#" height="#" alt="Пинк">
+<img src="#" witdh="#" height="#" alt="Бородински">
+<img src="#" witdh="#" height="#" alt="Милые штучки">
+<img src="#" witdh="#" height="#" alt="Учеба">
+<img src="#" witdh="#" height="#" alt="Квас">
+</div>
+<div class="leaf">
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">следующая</a>
+</div>
+</div>
+</main>
+<footer class="main-foter">
+<div class="container">
+<div class="footer-social">
+  <p>Давайте дружить, это выгодно!</p>
+  <span class="discount"> Скидка 10 %, для друзей из социальных сетей</span> 
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </div>
+        </div>
+        </footer>  
+  </body>
+</html>
