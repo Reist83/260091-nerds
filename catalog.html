@@ -25,31 +25,37 @@
             <li>
               <a href="#">Контакты</a>
             </li>
-           <ul>  
-           <div class="basket">
+           </ul>  
+          </nav> 
+          <div class="basket">
              <a href="#">Корзина</a>
           </div>  
-        </nav> 
         <h1>Магазин готовых шаблонов</h1>     
       </div>
     </header>
   <main class="container">
     <div class="index-content-left">
       <form action="#" method="get">
-      <input type="range" min="1" max="15000" step="1">от 0 
-      до 15000 </input>      
+        <div class="runner">
+          <label> 
+            От<input type="text" value="0"> 
+          </label> 
+          <label> 
+            До<input type="text" value="15000"> 
+          </label>
+        </div>        
         <h2>Стоимость</h2>
         <h2>Сетка</h2>
-          <input type="radio"checked>Адаптивная</input>
-          <input type="radio" >Фиксированная</input>
-          <input type="radio"> Резиновая</input>
+          <label><input type="radio" checked>Адаптивная</label>
+          <label><input type="radio">Фиксированная</label>
+          <label><input type="radio">Резиновая</label>
           <h2>Особенности</h2>  
-          <input type="checkbox"checkend >Слайдер</input>
-          <input type="checkbox">Блок преимуществ</input>
-          <input type="checkbox" checkend>Новости</input>
-          <input type="checkbox">Галерея</input>
-          <input type="checkbox"> Корзина</input>
-          <input type="button">Показать</input>
+          <label><input type="checkbox" checked>Слайдер</label>
+          <label><input type="checkbox">Блок преимуществ</label>
+          <label><input type="checkbox"  checked>Новости</label>
+          <label><input type="checkbox">Галерея</label>
+          <label><input type="checkbox"> Корзина</label>
+          <button>Показать</button>
         </form> 
     </div>
   <div class="index-content-right">
@@ -79,20 +85,21 @@
     </div>
   </div>
   <div class="map">
-    <img src="http://placehold.it/150x100">
+    <img src="img/nerds-index1.png" width="1435" height="418" alt="карта">
   </div>  
 </main>
-<footer class="main-foter">
+<footer class="main-footer">
     <div class="container">
       <div class="friends">      
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
       </div>   
-      <div class="footer-social">
-        <h2>Давайте дружить, это выгодно!</h2>
-        <p class="discount"> Скидка 10 %, для друзей из социальных сетей</p> 
-      </div>  
-    </footer>  
-  </body>
+        <div class="footer-social">
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p class="discount"> Скидка 10 %, для друзей из социальных сетей</p> 
+        </div>
+    </div>    
+  </footer>  
+ </body>
 </html>
