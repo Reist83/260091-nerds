@@ -1,70 +1,62 @@
-
+body {
+    font-family: "Times New Roman"
+}
 .navigation   {
     font-size: 16px;
-	font-family: Roboto, 'Times New Roman';
     color: #000000;
     line-height: 30px;
     font-weight: normal; 
 }
 .basket {
     font-size: 16px;
-	font-family: Roboto, 'Times New Roman';
     color: #000000;
     line-height: 30px;
     font-weight: normal; 	
 }
 .slider h2 {
 	font-size: 55px;
-	font-family: Roboto, 'Times New Roman';
     color: #000000;
     line-height: 55px;
     font-weight: normal;
 }    
 .motto {
     font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #5d6367;
     line-height: 24px;
     font-weight: normal; 	
 }
 .features-item1, .features-item2, .features-item3 {
     font-size: 24px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 30px;
     font-weight: bold; 	
 }
 .type1, .type2, .type3 {
     font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #5d6367;
     line-height: 24px;
     font-weight: normal; 	
 }
 .company-left-column h2 {
 	font-size: 45px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 45px;
     font-weight: normal;
 }
 .company-left-column p {
     font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #5d6367;
     line-height: 24px;
     font-weight: normal;
 }
 .categories h2 {
 	font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 24px;
     font-weight: bold;
 }
 .categories li {
 	font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #5d6367;
     line-height: 24px;
     font-weight: normal;	
@@ -72,36 +64,54 @@
 
 .company-right-column-statement h2 {
 	font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 24px;
     font-weight: bold;		
 }
 .company-right-column-percent, .percent {
 	font-size: 45px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 10,06px;
     font-weight: normal;		
 }
 .company-right-column-percent, .advantage {
 	font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #5d6367;
     line-height: 18px;
     font-weight: normal;		
 }
 .footer-social h2 {
 	font-size: 36px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 36px;
     font-weight: normal;	
 }
 .discount {
 	font-size: 16px;
-	font-family: Roboto,'Times New Roman';
     color: #000000;
     line-height: 22px;
     font-weight: normal;		
 }
+h1 {
+    font-size: 55px;
+    color: #000000;
+    line-height: 55px;
+    font-weight: normal;
+}
+
+.index-content-left h2 {
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: normal; 
+}
+
+.sorting h2 {
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: normal;    
+}
+
+
+     
