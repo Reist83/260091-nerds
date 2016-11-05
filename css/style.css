@@ -1,3 +1,4 @@
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -11,10 +12,10 @@ body {
     font-size: 16px;
     color: #000000;
     line-height: 30px;
-    font-weight: normal; 	
+    font-weight: normal;  
 }
 .slider h2 {
-	font-size: 55px;
+  font-size: 55px;
     color: #000000;
     line-height: 55px;
     font-weight: normal;
@@ -23,22 +24,22 @@ body {
     font-size: 16px;
     color: #5d6367;
     line-height: 24px;
-    font-weight: normal; 	
+    font-weight: normal;  
 }
 .features-item1, .features-item2, .features-item3 {
     font-size: 24px;
     color: #000000;
     line-height: 30px;
-    font-weight: bold; 	
+    font-weight: bold;  
 }
 .type1, .type2, .type3 {
     font-size: 16px;
     color: #5d6367;
     line-height: 24px;
-    font-weight: normal; 	
+    font-weight: normal;  
 }
 .company-left-column h2 {
-	font-size: 45px;
+  font-size: 45px;
     color: #000000;
     line-height: 45px;
     font-weight: normal;
@@ -50,48 +51,49 @@ body {
     font-weight: normal;
 }
 .categories h2 {
-	font-size: 16px;
+  font-size: 16px;
     color: #000000;
     line-height: 24px;
     font-weight: bold;
 }
 .categories li {
-	font-size: 16px;
+    font-size: 16px;
     color: #5d6367;
     line-height: 24px;
-    font-weight: normal;	
+    font-weight: normal;  
 }
 
 .company-right-column-statement h2 {
-	font-size: 16px;
+    font-size: 16px;
     color: #000000;
     line-height: 24px;
-    font-weight: bold;		
+    font-weight: bold;    
 }
 .company-right-column-percent, .percent {
-	font-size: 45px;
+    font-size: 45px;
     color: #000000;
     line-height: 10,06px;
-    font-weight: normal;		
+    font-weight: normal;    
 }
 .company-right-column-percent, .advantage {
-	font-size: 16px;
+    font-size: 16px;
     color: #5d6367;
     line-height: 18px;
-    font-weight: normal;		
+    font-weight: normal;    
 }
 .footer-social h2 {
-	font-size: 36px;
+    font-size: 36px;
     color: #000000;
     line-height: 36px;
-    font-weight: normal;	
+    font-weight: normal;  
 }
 .discount {
-	font-size: 16px;
+    font-size: 16px;
     color: #000000;
     line-height: 22px;
-    font-weight: normal;		
+    font-weight: normal;    
 }
+
 h1 {
     font-size: 55px;
     color: #000000;
@@ -112,6 +114,155 @@ h1 {
     line-height: 30px;
     font-weight: normal;    
 }
+main .container {
+   width: 860px;
+   margin-left: 137px; 
+   margin-right: 197px;
+   margin-top: 157px;
+   margin-bottom: 218px;
+}
+div.container {
+    width: 1200px;
+    margin: auto;
+}
+.main-heder {
+   width: 1440px;
+   margin-left: 137px; 
+   margin-top: 33px;
+   margin-right: 130px;
+   margin-bottom: 50px;	
+}
 
+div .index-logo {
+    float: left;
+    width: 160px;
+    margin-left: 140px;
+}
 
-     
+nav .navigation {
+    float: left;
+    width: 200px;
+    margin-left: 500px;
+}
+
+div .basket { 
+    float: right;
+    width: 120px;
+    margin-right: 140px;
+}
+
+div .slider {
+    width: 380px;
+    margin-left: 140px;
+    margin-top: 78px; 
+} 
+
+.container .clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-left: 48px;
+}
+
+.features {
+  width: 1100px;
+  margin-top: 160px;
+  margin-left: 140px;
+  margin-right: 200px;
+  margin-bottom: 122px;
+}  
+
+.features-item1 {
+	float: left;
+	width: 300px;
+	margin-right: 100px;
+}
+
+.features-item2 {
+	float: left;
+	width: 300px;
+}
+
+.features-item3  {
+	float: right;
+	width: 300px;
+}
+
+ .company {
+  width: 1165px;
+  margin-top: 122px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 119px;
+}  
+ 	
+.company-left-column {
+ float: left;
+ width: 665px;
+  
+}
+
+.categories {
+	float: left;
+	width: 445px;
+}
+
+.company-right-column {
+	float: right;
+	width: 360px;
+}
+
+.clients {
+  width: 1100px;
+  height: 84px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ .discount  {
+ 	float:left;
+ 	width: 267px;
+ 	margin-right: auto;
+  margin-left: auto;
+ }
+.footer-social {
+  width: 550px;
+  height: 59px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 76px;
+  margin-bottom: 76px;
+
+}
+.index-content-left{
+  float:left;
+  width: 260px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 164px;
+  margin-bottom: 0px; 
+}
+
+.index-content-right {
+  float:right;
+  width: 760px;
+  margin-right: 140px;
+  margin-left: 140px;
+  margin-top: 165px;
+  margin-bottom: 60px; 
+}
+.paginator {
+  margin-left: 540px;
+  margin-right: 454px;
+  margin-bottom: 58px;
+  margin-top: 60px;
+}
+.friends {
+  margin-top: 69px;
+  margin-bottom: : 69px;
+  margin-left: 140px 
+  margin-right: 135px; 
+}
