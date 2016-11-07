@@ -135,19 +135,17 @@ main {
  .index-logo {
     float: left;
     width: 160px;
-    margin-left: 140px;
 }
 
  .navigation {
     float: left;
-    width: 200px;
-    margin-left: 200px;
+    width: 800px;
+    margin: 0 20px.
    }
 
  .basket { 
     float: right;
-    width: 120px;
-    margin-right: 140px;
+    width: 160px;
    }
 
  .slider {
