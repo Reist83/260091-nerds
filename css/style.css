@@ -1,6 +1,6 @@
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
   }
   .navigation {
@@ -46,13 +46,14 @@ body {
     line-height: 24px;
     font-weight: normal;  
 }
-.features-item1, .features-item2, .features-item3 {
+.features-item h2 {
     font-size: 24px;
     color: #000000;
     line-height: 30px;
     font-weight: bold;  
 }
-.type1, .type2, .type3 {
+
+.type {
     font-size: 16px;
     color: #5d6367;
     line-height: 24px;
@@ -147,30 +148,39 @@ main {
 .main-heder {
    width: 1920px;	
 }
-
+.main-header-top {
+  padding-top: 50px;
+}
  .index-logo {
     float: left;
     width: 160px;
+    height: 64px;
+}
 }
 
  .navigation {
     float: left;
     width: 800px;
-    margin: 0 20px.
+    margin: 0 20px;
+    padding-top: 82px;
    }
 
  .basket { 
     float: right;
     width: 160px;
+    padding-top: 82px;
    }
 
  .slider {
   width: 380px;
-  display: none
 } 
+.slider .hide {
+ display: none 
+}
 .slide {
   min-height: 431px; 
 }
+
 .slide-description {
   width: 380px; 
 }
@@ -178,6 +188,7 @@ main {
  h1 {
   margin-left: 360px
 }
+
 
 .container .clearfix::after {
    content: "";
@@ -194,35 +205,26 @@ main {
 
 .features {
   width: 1100px;
-  margin-top: 157px;
-  margin-left: 20px;
-  margin-right: 80px;
-  margin-bottom: 119px;
+  margin-bottom: 80px;
 }  
 
-.features-item1 {
+.features-item {
   float: left;
   width: 300px;
-  margin-right: 100px;
+  margin-right: 60px;
+
 }
 
-.features-item2 {
-  float: left;
-  width: 300px;
-}
-
-.features-item3  {
-  float: right;
-  width: 300px;
+.features-item + features-item { 
+ float: right;
+ margin-left: 40px;
 }
 
 
  .company {
-  width: 1160px;
-  margin-top: 165px;
-  margin-left: 20px;
-  margin-right: 80px;
-  margin-bottom: 119px;
+  padding-top: 40px;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
 }  
  	
 .company-left-column {
