@@ -145,8 +145,10 @@ main {
   padding: 0 20px; 
 } 
 }
-.main-heder {
-   width: 1920px;	
+.main-header {
+   width: 1920px;
+   margin-bottom: 80px;
+   background-color:#eeeeee;
 }
 .main-header-top {
   padding-top: 50px;
@@ -197,7 +199,7 @@ main {
 
 .navigation li {
   display: inline-block;
-	margin-left: 48px;
+	margin: 0;
 }
 
 
@@ -215,8 +217,7 @@ main {
 }
 
 .features-item + features-item { 
- float: right;
- margin-left: 40px;
+margin-left: 40px; 
 }
 
 
@@ -243,11 +244,16 @@ main {
 }
 
 .clients {
-  width: 1100px;
-  height: 84px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-bottom: 80px;
+  padding-top: 60px;
+
+
 }
+.clients a {
+  display: inline-block;
+  width: 1090px;
+  }
+
  .discount  {
  	float:left;
  	width: 267px;
@@ -289,7 +295,36 @@ main {
 }
 .friends {
   margin-top: 69px;
-  margin-bottom: : 69px;
+  margin-bottom: 69px;
   margin-left: 140px 
   margin-right: 135px; 
+}
+.sprite {
+    background-image: url(img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart-icon {
+    width: 15px;
+    height: 15px;
+    background-position: -20px -20px;
+}
+
+.sprite-fb-icon {
+    width: 12px;
+    height: 22px;
+    background-position: -20px -75px;
+}
+
+.sprite-insta-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -137px;
+}
+
+.sprite-vk-icon {
+    width: 26px;
+    height: 15px;
+    background-position: -20px -198px;
 }
