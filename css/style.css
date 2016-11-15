@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+
   }
   .navigation {
     display: block;
@@ -162,7 +163,12 @@ main {
     width: 800px;
     margin: 0 20px;
     padding-top: 23px;
+    text-align: center;
    }
+.navigation ul {
+  margin: 0;
+  list-style-type: none;
+}
 
  .basket { 
   float: right;
@@ -201,7 +207,6 @@ main {
 }
 
 .features {
-  width: 1180px;
   margin-bottom: 80px;
 }  
 
@@ -221,6 +226,7 @@ margin-left: 40px;
   padding-top: 40px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
+  padding-bottom: 62px;
 }  
  	
 .company-left-column {
@@ -242,6 +248,8 @@ margin-left: 40px;
 .clients {
   margin-bottom: 80px; 
   padding: 45px 0;
+  font-size: 0px;
+  text-align: center;
 }
 
 .clients a {
@@ -249,61 +257,51 @@ margin-left: 40px;
  vertical-align: middle; 
  width: 290px; 
  max-height: 90px;
+ font-size: 16px;
   }
 .clients img {
 max-width: 290px; 
 max-height: 90px;
 }
-
+.map {
+  height: 310px;
+  padding: 53px 0;
+  background: url(../img/map.jpg) no-repeat;
+  background-size: cover;
+}
+.under {
+padding: 70px 0;
+}
  .discount  {
  	float:left;
  	width: 267px;
  	margin-right: auto;
   margin-left: auto;
  }
-.footer-social {
-  width: 550px;
-  height: 59px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 76px;
-  margin-bottom: 76px;
 
-}
+
 .index-content-left{
   float:left;
   width: 260px;
-  margin-left: 140px;
-  margin-right: 140px;
-  margin-top: 164px;
-  margin-bottom: 0px;
-  display: block; 
 }
 
 .index-content-right {
   float:right;
   width: 760px;
-  margin-right: 140px;
-  margin-left: 140px;
-  margin-top: 165px;
   margin-bottom: 60px; 
 }
 .paginator {
-  margin-left: 540px;
-  margin-right: 454px;
   margin-bottom: 58px;
   margin-top: 60px;
 }
-.friends {
-  margin-top: 69px;
-  margin-bottom: 69px;
-  margin-left: 140px; 
-  margin-right: 135px; 
+.friends { 
+float: left; 
+margin-right: 135px; 
+width: 260px;
 }
-.sprite {
-    background-image: url(img/spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
+.footer-social {
+float: left; 
+max-width: 760px;
 }
 
 .sprite-cart-icon {
@@ -312,20 +310,29 @@ max-height: 90px;
     background-position: -20px -20px;
 }
 
-.sprite-fb-icon {
+.social-btn-fb {
     width: 12px;
     height: 22px;
     background-position: -20px -75px;
 }
 
-.sprite-insta-icon {
+.social-btn-inst {
     width: 21px;
     height: 21px;
     background-position: -20px -137px;
 }
 
-.sprite-vk-icon {
+.social-btn-vk {
     width: 26px;
     height: 15px;
     background-position: -20px -198px;
 }
+    
+.social-btn {
+  background-image: url("img/spritesheet.png");
+  background-repeat: no-repeat;   
+  display: block;
+}
+
+
+
