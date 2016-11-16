@@ -194,8 +194,7 @@ main {
   margin-left: 360px
 }
 
-
-.container .clearfix::after {
+.clearfix::after {
    content: "";
    display: table;
    clear: both;
@@ -259,17 +258,14 @@ margin-left: 40px;
  max-height: 90px;
  font-size: 16px;
   }
-.clients img {
-max-width: 290px; 
-max-height: 90px;
-}
+
 .map {
   height: 310px;
   padding: 53px 0;
   background: url(../img/map.jpg) no-repeat;
   background-size: cover;
 }
-.under {
+.main-footer-social {
 padding: 70px 0;
 }
  .discount  {
