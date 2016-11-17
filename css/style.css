@@ -107,7 +107,8 @@ body {
     font-size: 36px;
     color: #000000;
     line-height: 36px;
-    font-weight: normal;  
+    font-weight: normal;
+    margin: 0;
 }
 .discount {
     font-size: 16px;
@@ -243,6 +244,12 @@ margin-left: 40px;
 	float: right;
 	width: 360px;
 }
+.depiction a {
+display: inline-block;
+margin-top: 133px;
+width: 760px;
+margin-right: 20px; 
+}
 
 .clients {
   margin-bottom: 80px; 
@@ -269,10 +276,7 @@ margin-left: 40px;
 padding: 70px 0;
 }
  .discount  {
- 	float:left;
  	width: 267px;
- 	margin-right: auto;
-  margin-left: auto;
  }
 
 
